@@ -1,0 +1,55 @@
+* {
+    border: 1px solid;
+}
+
+/* design, non-flex */
+
+img {
+    height: 250px;
+}
+
+li {
+    padding-left: 50px;
+    color: #E5E7EB;
+}
+
+span {
+    font-family: "Hero", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+/* flex items */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
