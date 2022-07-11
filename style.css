@@ -31,6 +31,14 @@ p {
     font-weight: 600;
     color: white;
 }
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
+
+
 /* flex items */
 
 
@@ -49,10 +57,9 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
-    padding-left: 14rem;
-    padding-right: 14rem;
-    
+    padding-top: 1%;
+    padding-left: 22%;
+    padding-right: 22%;
 }
 
 .header-1 {
@@ -72,30 +79,30 @@ ul {
 
 .header-2 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin-top: 80px;
     margin-bottom: 80px;
+    flex: 1;
 }
 
-.header-image{
-    width: 400px;
-    height: auto;
+.header-image {
+    height: 20vh;
     object-fit: cover;
     border: none;
+    flex: 1;
+    display: flex;
 }
 
 .header-2-text {
     display: flex;
     flex-direction: column;
     padding-right: 30px;
-
+    margin-bottom: 10px;
 }
 
-.sign-up-1 {
-    margin-top: 10px;
+.sign-up-1, .sign-up-2 {
     width: 100px;
-    height: 30px;
+    height: 25px;
     background-color: #3882F6;
     color: white;
     font-weight: 600;
@@ -103,13 +110,13 @@ ul {
     border-radius: 5px;
 }
 
+
+
 .boxed-content {
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding-left: 15rem;
-    padding-right: 15rem;
-
+    flex: 1;
 }
 
 .boxed-content-title {
@@ -119,22 +126,83 @@ ul {
     display: flex;
     justify-content: center;
     padding: 40px;
+    flex: 1;
 }
 
 .boxes {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 30px;
+    padding-bottom: 160px;
 }
 
 .image-boxes {
-    width: 150px;
-    height: 150px;
+    width: 10vh;
+    height: 10vh;
     object-fit: cover;
     border: 4px solid;
     border-radius: 8px;
     border-color: #3882F6;
     display: flex;
-    flex-direction: row;
+}
+
+.image-text-box {
+    width: 10vh;
+    height: 10vh;
+}
+
+.content-text{
+    padding-top: 10px;
+    display: flex;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+.quote {
+    padding-left: 28%;
+    padding-right: 28%;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    flex: 1;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.action-content {
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    align-content: center;
+    flex: 1;
+}
+
+.action-area {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.sign-up-2 {
+    border-color: white;
+    border: 2px solid;
 }
