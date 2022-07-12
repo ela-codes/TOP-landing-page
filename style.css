@@ -6,6 +6,7 @@
 
 li {
     padding-left: 50px;
+    text-justify: center;
 }
 
 a {
@@ -66,15 +67,14 @@ body {
     display: flex;
     justify-content: space-between;
     flex: 1;
+    align-items: center;
 }
 
 ul {
     margin: 0;
     padding: 0;
-    list-style: none;
-    display: flex;
+    list-style:none;                                       display: flex;
     justify-content: space-between;
-    align-content: center;
 }
 
 .header-2 {
@@ -202,7 +202,12 @@ ul {
     flex: 1;
 }
 
-.sign-up-2 {
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+    .sign-up-2 {
     border-color: white;
     border: 2px solid;
 }
